@@ -88,7 +88,7 @@ struct BlogView: View {
              
 
              Button {
-               print("circle 버튼클릭")
+               print("left 버튼클릭")
              } label: {
                Image(systemName: "chevron.left")
              }
@@ -126,6 +126,7 @@ struct BlogView_Previews: PreviewProvider {
 
 세번째버튼은 토글버튼이다. 
 첫번째 인자값은 토글텍스트값 
+
 두번째 인자값은 isOn이라는 상태값을 넣어줘야한다.(Toggle("",isOn))
 onText의 값은 토글 스위치를 클릭할때마다 상태값이 변경된다.
 
@@ -173,7 +174,7 @@ struct BlogView: View {
                         Text($0.name)
                     }.refreshable { //리스트재조회
            
-                     }
+                    }
     }
 }
 
@@ -190,7 +191,8 @@ struct BlogView_Previews: PreviewProvider {
 
 ## TextField
 TextField는 사용자가 텍스트를 입력할때 사용하는 컴포넌트이다.
-첫번째 인자 값으로 placeholder 텍스트
+첫번째 인자 값으로 placeholder 텍스트(placeholer를 주고싶지않아도 빈값이라도 보내야한다.)
+
 두번째 인자 값으로 @State로 선언된 변수를 넣으면 이 변수에 텍스트가 입력된다.
 
 비밀번호와 같은 중요한 데이터는 입력되는 값을 보호해주는 Secure Textfield 컴포넌트를 사용하여 입력하여야한다.
@@ -234,6 +236,9 @@ Picker는 여러 옵션 중에서 하나를 선택할 수 있는 컴포넌트이
 segment로 할경우엔 텍스트와 이미지로만 사용할수있다고한다. 다른뷰를 사용하게되면 빈 세그먼트가 나타난다고...
 
 radioGroup은 Mac에서만 제공한다.
+
+각각 스타일별로 지원하고있는 os버전이 다르니 확인 후 개발하여야 한다. 
+ColorPicker를 사용해볼려고했더니 워치os와 맞지않다고 사용못했다....
 
 
 ```swift
