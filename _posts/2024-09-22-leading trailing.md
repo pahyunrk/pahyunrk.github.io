@@ -32,10 +32,10 @@ leading은 텍스트의 시작방향, trailing은 텍스트의 종료방향이�
 
 
 
-![좌횡서](/assets/img/postImg/20240922/좌횡서.png)
+![좌횡서](postImg/20240922/좌횡서.png)
 
 
-![우횡서](/assets/img/postImg/20240922/우횡서.png)
+![우횡서](postImg/20240922/우횡서.png)
 
 
 
@@ -45,12 +45,12 @@ leading은 텍스트의 시작방향, trailing은 텍스트의 종료방향이�
 
 ### leading
 텍스트의 시작방향
-![leading](/assets/img/postImg/20240922/leading.png)
+![leading](postImg/20240922/leading.png)
 
 
 ### trailing
 텍스트의 끝방향
-![trailing](/assets/img/postImg/20240922/trailing.png)
+![trailing](postImg/20240922/trailing.png)
 
 ----
 
