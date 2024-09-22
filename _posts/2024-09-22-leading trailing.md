@@ -2,7 +2,7 @@
 title: "[Swift] leading과trailing"
 description: 
 author: pahyunrk
-date: 2024-09-022
+date: 2024-09-22
 categories: [Swift]
 tags: [Swift, alignment ,AppleWatch]
 pin: false
